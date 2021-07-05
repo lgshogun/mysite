@@ -1,0 +1,61 @@
+body {
+    background-color: #353b48;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    animation-name: da;
+}
+
+a{
+    margin: 0;
+    position: absolute;
+
+    text-decoration: none;
+    border-radius: 30px;
+    text-shadow: 2px 2px black;
+
+    transition-property: padding;
+    transition-duration: 150ms;
+
+    padding: 250px 100px  250px 100px;
+  }
+
+.rpg a{
+
+    color: #e84393;
+    background-image: url(https://i.pinimg.com/originals/ee/52/d1/ee52d15d86f12e2578a566d8804b56dd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.home a{
+
+
+    background-image: url(https://www.amexessentials.com/wp-content/uploads/2018/08/opener-home-workspace.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    color: #81ecec;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.study a{
+    background-image: url(https://i2.wp.com/northmonastery.ie/wp-content/uploads/2020/03/study-skills-assessments.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+    color: #1abc9c;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
